@@ -126,3 +126,4 @@ locale.setlocale(locale.LC_ALL, '')
 print(time.strftime('Сегодня: %B %d, %Y', time.localtime()))
 print(time.strftime('Today %B %d, %Y', time.localtime()))
 
+print('test')
