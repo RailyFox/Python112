@@ -120,10 +120,63 @@
 # del a[0:a.index(m)]
 # print(a)
 
-import time
-import locale
-locale.setlocale(locale.LC_ALL, '')
-print(time.strftime('Сегодня: %B %d, %Y', time.localtime()))
-print(time.strftime('Today %B %d, %Y', time.localtime()))
+# import time
+# import locale
+# locale.setlocale(locale.LC_ALL, '')
+# print(time.strftime('Сегодня: %B %d, %Y', time.localtime()))
+# print(time.strftime('Today %B %d, %Y', time.localtime()))
+#
+# print('test')
 
-print('test')
+
+# def hello():
+#     print('Hello')
+#
+#
+# hello()
+
+
+# def symbol(num, s1, s2):
+#  ch=''
+#     while ch != num:
+#         if ch % 2 ==0:
+#             ch+s1
+#         else:
+#             ch+s2
+# print(ch)
+#
+# symbol(9, '+', '-')
+# symbol(7, 'X', '0')
+
+
+# def math(a, b):
+#     if a > b:
+#         return a - b
+#     else:
+#         return a + b
+#
+#
+# a, b = int(input('введите первое число:')), int(input('введите первое число:'))
+# print(math(a, b))
+#
+# def fib(n):
+#
+#
+#     a, b = 0,1
+#
+#     while a < n:
+#         print(a, end=' ')
+#
+#
+# fib(15)
+
+# def chg(lst):
+#     lst.sort(reverse=True)
+#
+#
+# print(chg([1, 2, 3]))
+# chg([9, 12, 33, 54, 105])
+# chg(['с','л','о','н'])
+
+
+
