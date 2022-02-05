@@ -31,9 +31,8 @@ match ch:
         r = int(input('радиус круга: '))
         print(circle(r))
 
+
 print('\t\tЗадание 2')
-
-
 def first_func(x):
     prime_num = []
     num = []
@@ -52,3 +51,6 @@ def first_func(x):
 lst = [6, 3, 8, 5, 7, 9, 3, 6, 5, 13, 1]
 
 first_func(lst)
+
+
+
