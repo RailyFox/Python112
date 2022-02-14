@@ -178,5 +178,90 @@
 # chg([9, 12, 33, 54, 105])
 # chg(['с','л','о','н'])
 
+# def is_greater(x, y):
+#     if x > y:
+#         return True
+#     else:
+#         return False
+#
+#
+# print(is_greater(10, 5))
 
+
+# def check_password(password):
+#     has_upper = False
+#     has_lower = False
+#     has_num = False
+#     for ch in password:
+#         if 'A' <= ch <= 'Z':
+#             has_upper = True
+#         elif 'a' <= ch <= 'z':
+#             has_lower = True
+#         elif '0' <= ch <= '9':
+#             has_num = True
+#     if len(password) >= 8 and has_upper and has_lower and has_num:
+#         return True
+#     return False
+#
+#
+# p = input('Введите пароль: ')
+# if check_password(p):
+#     print('Это надежный пароль')
+# else:
+#     print('Это не надежный пароль')
+
+# def set_param(x=20, y='-'):
+#     print(x*y)
+#
+# set_param(10, '+')
+# set_param(5, '*')
+# set_param(15, '#')
+# set_param(7)
+# set_param()
+
+# def check_password(username, password, min_length=8, check_user=True):
+#     if len(password) < min_length:
+#         print('Пароль слишком короткий')
+#         return
+#     elif check_user and username in password:
+#         print('Пароль содержит имя пользователя')
+#         return
+#     else:
+#         print('Пароль пользовател', username, 'корректен')
+#         return True
+#
+# check_password('igor', 'werwf21')
+# check_password('igor', '12345igor')
+# check_password('igor', '12345ig12r')
+
+
+# def digit_sum(n):
+#     s = 0
+#     while n >0:
+#         cur_digit = n % 10
+#         n//=10
+#
+#
+#
+# print('Сумма четных чисел: ')
+#
+# print(digit_sum(9874023))
+
+#
+# def func(s):
+#     ls = []
+#     [ls.append(i) for i in reversed(s) if i not in ls]
+#     return tuple(ls)
+#
+# print(func([1,2,3,3,2]))
+# print(func([2,1,3,1,2,5,5,9,2,0,0]))
+
+
+# def to_set(elem):
+#     lst = set(elem)
+#     return lst, len(lst)
+#
+#
+# print(to_set('я обычная строка'))
+# print(to_set([4, 5, 4, 6, 2, 9, 11, 3, 4, 2]))
 

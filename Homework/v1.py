@@ -33,6 +33,8 @@ match ch:
 
 
 print('\t\tЗадание 2')
+
+
 def first_func(x):
     prime_num = []
     num = []
